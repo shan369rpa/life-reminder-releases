@@ -1,0 +1,74 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <title>Icon app - chu tieu Lang Mai</title>
+  <desc>Nguon de sinh icon: nen squircle nau Lang Mai, chu tieu ngoi kiet gia o giua. Rasterize bang qlmanage roi chay `npm run tauri icon`.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6B4832"></stop>
+      <stop offset="1" stop-color="#3E2819"></stop>
+    </linearGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.42" r="0.5">
+      <stop offset="0" stop-color="#F4E6D4" stop-opacity="0.22"></stop>
+      <stop offset="1" stop-color="#F4E6D4" stop-opacity="0"></stop>
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1024" height="1024" rx="228" fill="url(#bg)"></rect>
+  <rect x="0" y="0" width="1024" height="1024" rx="228" fill="url(#halo)"></rect>
+
+  
+  <g transform="translate(512,530) scale(1.72) translate(-340,-288)">
+    <g id="shadow">
+      <ellipse cx="340" cy="476" rx="158" ry="22" fill="#000000" opacity="0.18"></ellipse>
+    </g>
+
+    <g id="inner-robe-black">
+      <path d="M300,256 C284,260 276,276 274,296 C260,338 212,406 186,458 Q182,470 198,472 L482,470 Q498,470 494,458 C468,406 420,338 406,296 C404,276 396,260 380,256 C360,248 320,248 300,256 Z" fill="#241C16"></path>
+      <path d="M340,300 C332,346 326,404 322,462" fill="none" stroke="#322619" stroke-width="3" stroke-linecap="round"></path>
+      <path d="M340,300 C348,346 354,404 358,462" fill="none" stroke="#322619" stroke-width="3" stroke-linecap="round"></path>
+    </g>
+
+    <g id="cloak-left">
+      <path d="M312,268 C300,262 286,264 276,280 C258,306 226,384 206,448 Q202,460 218,460 L300,460 C296,412 300,350 308,304 C311,290 313,280 312,268 Z" fill="#8A5B3F"></path>
+      <path d="M290,300 C276,340 262,404 258,450" fill="none" stroke="#6B4832" stroke-width="3" opacity="0.5" stroke-linecap="round"></path>
+      <path d="M312,270 C309,300 302,360 300,458" fill="none" stroke="#A5714E" stroke-width="3" stroke-linecap="round"></path>
+    </g>
+
+    <g id="cloak-right">
+      <path d="M368,268 C380,262 394,264 404,280 C422,306 454,384 474,448 Q478,460 462,460 L380,460 C384,412 380,350 372,304 C369,290 367,280 368,268 Z" fill="#8A5B3F"></path>
+      <path d="M390,300 C404,340 418,404 422,450" fill="none" stroke="#6B4832" stroke-width="3" opacity="0.5" stroke-linecap="round"></path>
+      <path d="M368,270 C371,300 378,360 380,458" fill="none" stroke="#A5714E" stroke-width="3" stroke-linecap="round"></path>
+    </g>
+
+    <g id="collar">
+      <path d="M314,266 C318,250 362,250 366,266 C368,278 362,289 353,291 C351,278 329,278 327,291 C318,289 312,278 314,266 Z" fill="#2A201A"></path>
+      <path d="M321,270 C321,261 359,261 359,270" fill="none" stroke="#463527" stroke-width="2" opacity="0.7" stroke-linecap="round"></path>
+    </g>
+
+    <g id="neck">
+      <rect x="326" y="236" width="28" height="22" rx="7" fill="#E6C9AE"></rect>
+    </g>
+
+    <g id="head">
+      <circle cx="340" cy="174" r="95" fill="#F4E1CD"></circle>
+      <ellipse cx="248" cy="182" rx="14" ry="20" fill="#F4E1CD"></ellipse>
+      <ellipse cx="432" cy="182" rx="14" ry="20" fill="#F4E1CD"></ellipse>
+      <path d="M300,118 C314,102 366,102 380,118" fill="none" stroke="#E6C9AE" stroke-width="2.5" opacity="0.6" stroke-linecap="round"></path>
+    </g>
+
+    <g id="cheeks">
+      <ellipse cx="292" cy="202" rx="21" ry="15" fill="#EFAE9E" opacity="0.75"></ellipse>
+      <ellipse cx="388" cy="202" rx="21" ry="15" fill="#EFAE9E" opacity="0.75"></ellipse>
+    </g>
+
+    
+    <g id="eyes">
+      <path d="M300,186 Q309,196 318,186" fill="none" stroke="#2B2420" stroke-width="6" stroke-linecap="round"></path>
+      <path d="M362,186 Q371,196 380,186" fill="none" stroke="#2B2420" stroke-width="6" stroke-linecap="round"></path>
+    </g>
+
+    <g id="mouth">
+      <path d="M328,212 Q340,222 352,212" fill="none" stroke="#B07A62" stroke-width="4" stroke-linecap="round"></path>
+    </g>
+  </g>
+</svg>

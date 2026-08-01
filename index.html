@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="dem">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="art/icon.svg" />
+    <title>Breath Chime — bạn đồng hành chánh niệm</title>
+    <meta
+      name="description"
+      content="Tiếng chuông định kỳ nhắc bạn trở về với hơi thở. Một chú tiểu nhỏ sống ở góc màn hình — macOS, miễn phí, không tài khoản."
+    />
+    <meta property="og:title" content="Breath Chime" />
+    <meta
+      property="og:description"
+      content="Tiếng chuông định kỳ nhắc bạn trở về với hơi thở — thở vài hơi trong lúc làm việc, học tập."
+    />
+    <meta property="og:type" content="website" />
+    <script type="module" crossorigin src="./assets/index-BoBuL462.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-BkdK9C5T.css">
+  </head>
+  <body>
+    <canvas id="cosmos"></canvas>
+
+    <!-- Preloader — thắp đèn. Nằm sẵn trong HTML để hiện ngay từ khung hình đầu,
+         không đợi JS tải xong rồi mới chớp lên. -->
+    <div id="pre">
+      <div class="pre-cali">
+        <img src="art/cal-1.svg" alt="" style="width: 97px; height: 132px; transform: translateY(24px); animation-delay: 0.15s" />
+        <img src="art/cal-2.svg" alt="" style="width: 91px; height: 68px; margin-left: -8px; animation-delay: 0.35s" />
+        <img src="art/cal-3.svg" alt="" style="width: 104px; height: 142px; margin-left: 36px; transform: translateY(24px); animation-delay: 0.55s" />
+        <img src="art/cal-4.svg" alt="" style="width: 64px; height: 44px; margin-left: -2px; animation-delay: 0.75s" />
+        <img src="art/cal-5.svg" alt="" style="width: 142px; height: 111px; margin-left: -6px; transform: translateY(5px); animation-delay: 0.95s" />
+      </div>
+      <div class="pre-kicker"></div>
+      <div class="pre-name">Breath Chime</div>
+      <div class="pre-bar">
+        <div class="pre-track">
+          <div class="pre-fill"></div>
+          <div class="pre-dot"></div>
+        </div>
+        <div class="pre-row">
+          <span class="pre-status"></span>
+          <span class="pre-pct">0%</span>
+        </div>
+      </div>
+      <div class="pre-skip"></div>
+    </div>
+
+    <div class="shell" id="shell"></div>
+    <div id="drawers"></div>
+    <div id="monk"></div>
+
+  </body>
+</html>
