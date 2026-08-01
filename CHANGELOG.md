@@ -2,6 +2,16 @@
 
 Định dạng theo [Keep a Changelog](https://keepachangelog.com/vi/1.1.0/); đánh số theo [Semantic Versioning](https://semver.org/lang/vi/).
 
+## [2.2.2] — 2026-08-01
+
+### Thêm
+
+- Thay thế phần giới thiệu tính năng "Giờ yên lặng" bằng "Thiền ca chánh niệm" trên trang Web.
+
+### Sửa
+
+- Thay thế hướng dẫn cũ bằng quy trình vượt Gatekeeper qua Terminal chi tiết từng bước, tích hợp hộp lệnh và nút Copy nhanh tiện lợi cho người dùng macOS Sequoia.
+
 ## [2.2.1] — 2026-08-01
 
 ### Sửa
