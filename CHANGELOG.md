@@ -2,6 +2,35 @@
 
 Định dạng theo [Keep a Changelog](https://keepachangelog.com/vi/1.1.0/); đánh số theo [Semantic Versioning](https://semver.org/lang/vi/).
 
+## [2.2.0] — 2026-08-01
+
+### Thêm
+
+- **Nghe nhạc thì nhắm mắt.** Bật một bài thiền ca, Breath Chime nhắm mắt lại lắng nghe cùng bạn — không chắp tay, chỉ ngồi yên. Riêng bài chuông vẫn chắp tay chào, đó là nghi thức.
+- **Nút dừng nhạc nổi.** Đóng bảng Thiền ca mà nhạc còn chạy thì một nút dừng nhỏ hiện ở góc trên phải màn hình. Trước đây muốn dừng phải mở lại bảng.
+- **Bài chuông bảy phút vào luôn danh sách Thiền ca** — thành năm bài đóng kèm. Phát từ nhánh Chuông hay từ bảng đều là một bài, bấm dừng ở đâu cũng dừng.
+
+### Đổi
+
+- **Hành vi gọn lại còn hai chế độ.** Trước đây có hai núm chồng lấn nhau — "Mức năng động" ba bậc và ô tích "Tự làm việc riêng", tổng cộng sáu tổ hợp. Giờ chỉ còn: **Tĩnh** (ngồi yên một chỗ, thi thoảng nhắm mắt thiền, không bao giờ tự dịch chuyển) hoặc **Tự làm việc riêng**. Cài đặt cũ của bạn được chuyển sang tương đương, không phải chỉnh lại.
+- **Ngồi thiền giờ chỉ nhắm mắt, không chắp tay.** Chắp tay là cử chỉ chào, không phải tư thế ngồi.
+
+### Bỏ
+
+- **Tự đi theo con trỏ chuột.** Một nhân vật thiền bám theo con trỏ đọc ra như đang đòi được chú ý. Mắt vẫn dõi theo chuột như cũ — chỉ bỏ việc đi theo.
+- Hai nhánh **Ngồi thiền** và **Đi thiền** tạm rút khỏi vòng kỹ năng: chế độ Tĩnh đã lo phần ngồi thiền, còn đi thiền chờ có tư thế đứng mới ra dáng đi thật.
+
+### Sửa
+
+- **Bấm vào khoảng trống quanh Breath Chime giờ xuyên xuống ứng dụng bên dưới.** Cửa sổ rộng hơn nhân vật khá nhiều, mà phần trong suốt vẫn nuốt chuột — bấm vào đó là ứng dụng phía sau không nhận được gì.
+- **Ctrl+A trong bảng không còn bôi đen cả bảng**, chỉ ô nhập liệu mới chọn được chữ.
+- **Kéo thanh trượt trong Cài đặt không còn giật.**
+
+### Ghi chú
+
+- Bản cài chưa được ký số. Xem [README](README.md#cài-đặt) để biết cách mở lần đầu.
+- Bản macOS dành cho Apple Silicon (M1 trở lên).
+
 ## [2.1.0] — 2026-08-01
 
 ### Thêm
@@ -35,3 +64,4 @@
 - Bản macOS dành cho Apple Silicon (M1 trở lên).
 
 [2.1.0]: https://github.com/shan369rpa/life-reminder-releases/releases/tag/v2.1.0
+[2.2.0]: https://github.com/shan369rpa/life-reminder-releases/releases/tag/v2.2.0
