@@ -2,6 +2,12 @@
 
 Định dạng theo [Keep a Changelog](https://keepachangelog.com/vi/1.1.0/); đánh số theo [Semantic Versioning](https://semver.org/lang/vi/).
 
+## [2.2.1] — 2026-08-01
+
+### Sửa
+
+- **Sửa vị trí nút dừng nhạc.** Di chuyển nút dừng nhạc nổi từ góc trên phải xuống gần nhân vật để tránh bị lém/cắt trên màn hình có tai thỏ (notch) hoặc do safe area inset của macOS.
+
 ## [2.2.0] — 2026-08-01
 
 ### Thêm
