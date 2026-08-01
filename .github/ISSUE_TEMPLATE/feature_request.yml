@@ -1,0 +1,24 @@
+name: Góp ý tính năng
+description: Đề xuất một việc chú tiểu nên làm được
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Bạn muốn chú tiểu làm được gì
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Vì sao
+      description: Việc đó giúp gì cho việc thực tập của bạn
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        Ứng dụng cố ý giữ ít chức năng. Một đề xuất hay vẫn có thể bị từ chối
+        nếu nó làm chú tiểu ồn ào hơn mức cần thiết.
